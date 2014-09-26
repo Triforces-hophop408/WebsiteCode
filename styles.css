@@ -1,3 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+#nav {
+	float: left;
+	min-width:128px;
+	position: fixed;
+	top: 128px;
+}
+
+li {
+	
+}
