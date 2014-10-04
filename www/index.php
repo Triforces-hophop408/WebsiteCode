@@ -13,10 +13,11 @@
 <ul class="nav">
 	<li><a href="index.php"><h3>Home</h3></a></li>
 	<li><a href="contact.php"><h3>Contact</h3></a></li>
+	<li><a href="./about/index.php"><h3>About</h3></a></li>
 </ul>
 </div>
 <div class="body">
-<img src="./assets/logo.jpg" height="50px" width="50px"></img>
+<img src="./assets/collage.png" height="480px" width="620px"></img>
 This site is still under development, and is not fully functional yet.
 </div>
 </body>
