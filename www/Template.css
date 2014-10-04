@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: #000099;
+	opacity: 0.85;
+	filter: alpha(opacity=85); /* For IE8 and earlier */
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height:80px;
+	width:100%;
+	
+}
+
+h1.head{
+	text-align: center;
+	color: #FFCC00;
+}
+
+body {
+	background-image: url("./assets/FRCicon_RGB.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.body {
+	background-color: #FFCC00;
+	opacity: .95;
+	position: fixed;
+	top: 80px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.nav{
+	background-color: #000099;
+	opacity: 0.85;
+	position: fixed;
+	top:80px;
+	left:0px;
+	height:100%;
+	width:80px;
+}

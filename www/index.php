@@ -3,22 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>PRHS Bearbotics Team 4068</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="template.css" rel="stylesheet" type="text/css">
 </head>
-<h1>Palmer Ridge Robotics</h1>
-	<div id="body">
-    	<div id="nav">
-        	<a href="default.html">Home</a><br />
-           <a href="about.html">About</a><br />
-           <a href="contact.html">Contact Us</a><br /><a href="contact.html">Contact Us</a><br />
-        </div>
-        <div id="feature">
-          <p>Contact Us</p>
-        	<div id="content">
-           	  
-            </div>
-      </div>
-    </div>
 <body>
+<div class="header">
+	<h1 class="head">Palmer Ridge Robotics</h1>
+</div>
+<div class="body">
+<img src="./assets/logo.jpg" height="50px" width="50px"></img>
+This site is still under development, and is not fully functional yet.
+</div>
 </body>
 </html>
