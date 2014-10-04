@@ -3,15 +3,19 @@ $dir = "../secure/";
 $wkdir = getcwd();
 include($dir."functions.php");
 
-$to = "PRHSrobotics <contact@prrobotics.com>";
+$to = "Test <technogeek6952@gmail.com>";
 $sub = $_POST['sub'];
+//$sub = "Test for PHPMail on robotics website";
 $message = str_replace("\n.", "\n..", $_POST['comment']);
+//$message = "I hope this works";
 
 $name = $_POST['name'];
+//$name = "Sean";
 $email = $_POST['email'];
+//$email = "technogeek6952@gmail";
 $from = $name." <".$email.">";
 
-$headers = "From: ".$from."\r\n";
+//$headers = "From: ".$from."\r\n";
 
-mail($to, $sub, $message, $headers);
+sendMessage($email, $name, $sub, $message);
 ?>

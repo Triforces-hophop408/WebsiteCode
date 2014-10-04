@@ -30,7 +30,7 @@ body {
 	opacity: .95;
 	position: fixed;
 	top: 80px;
-	left: 0px;
+	left: 80px;
 	width: 100%;
 	height: 100%;
 }
@@ -43,4 +43,20 @@ body {
 	left:0px;
 	height:100%;
 	width:80px;
+}
+
+.nav ul{
+	list-style-type: none;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #FFCC00;
+	display: block;
+	width: 80px;
+}
+
+.nav a:hover{
+	color: #000099;
+	background-color: #FFCC00;
 }
