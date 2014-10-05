@@ -9,16 +9,13 @@
 <div class="header">
 	<h1 class="head">Palmer Ridge Robotics</h1>
 </div>
-<div class="nav">
-<ul class="nav">
-	<li><a href="index.php"><h3>Home</h3></a></li>
-	<li><a href="contact.php"><h3>Contact</h3></a></li>
-	<li><a href="./about/index.php"><h3>About</h3></a></li>
-</ul>
-</div>
+<?PHP
+$home = './';
+include $home.'sidebar.php';
+?>
 <div class="body">
-<img src="./assets/collage.png" height="480px" width="620px"></img>
-This site is still under development, and is not fully functional yet.
+<img src="./assets/collage.png" height="480px"></img>
+<br>This site is still under development, and is not fully functional yet.
 </div>
 </body>
 </html>

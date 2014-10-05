@@ -9,21 +9,21 @@
 <div class="header">
 	<h1 class="head">Palmer Ridge Robotics - About</h1>
 </div>
-<div class="nav">
-<ul>
-	<li><a href="../index.php"><h3>Home</h3></a></li>
-	<li><a href="contact.php"><h3>Contact</h3></a></li>
-	<li><a href="index.php"><h3>About</h3></a></li>
-</ul>
-</div>
+<?PHP
+$home = '../';
+include $home.'sidebar.php';
+?>
 <div class="navtop">
 <ul>
-	<li><a href="index.php"><h3>Main</h3></a></li>
-	<li><a href="programming.php"><h3>Programming</h3></a></li>
+	<li><a href="about.php"><h3>Our Team</h3></a></li>
+	<li><a href="FRC.php"><h3>FIRST/FRC</h3></a></li>
 </ul>
 </div>
 <div class="body">
-
+<br>
+<br>
+<p><font size='5'>FRC (FIRST Robotics Competition) is a program created by FIRST (For Inspiration and Recognition of Science and Technology) designed to inspire
+young high school students to be more interested in science and technology. FIRST is a STEM (Science, Technology, Engineering, and Mathematics) program.</font></p>
 </div>
 </body>
 </html>

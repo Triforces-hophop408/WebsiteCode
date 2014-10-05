@@ -1,11 +1,16 @@
-* {
+*{
 	margin: 0;
 	padding: 0;
 }
+
+p{
+	text-indent: 25px;
+}
+
 .header{
 	background-color: #000099;
-	opacity: 0.85;
-	filter: alpha(opacity=85); /* For IE8 and earlier */
+	opacity: .85;
+	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -20,7 +25,7 @@ h1.head{
 }
 
 body {
-	background-image: url("./assets/FRCicon_RGB.jpg");
+	background-image: url("./assets/background.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -28,22 +33,29 @@ body {
 .body {
 	background-color: #FFCC00;
 	opacity: .95;
+	filter: alpha(opacity = calc(100 * .95)); /* For IE8 and earlier */
 	position: fixed;
 	top: 80px;
-	left: 80px;
-	width: 100%;
-	height: 100%;
+	left: 100px;
+	width: calc(100% - 100px - 10px);
+	height: calc(100% - 80px - 10px);
 	padding: 5px;
+	overflow-y: auto;
 }
 
+/*nav - bar to right of page used for navigation and any widgets such as log in / create account*/
 .nav{
 	background-color: #000099;
-	opacity: 0.85;
+	color: #FFCC00;
+	opacity: .85;
+	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
-	top:80px;
-	left:0px;
-	height:100%;
-	width:80px;
+	top: 80px;
+	left: 0px;
+	min-height:calc(100% - 80px);
+	height: inherit;
+	width:100px;
+	overflow: hidden;
 }
 
 .nav ul{
@@ -54,7 +66,15 @@ body {
 	text-decoration: none;
 	color: #FFCC00;
 	display: block;
-	width: 80px;
+	width: 100px;
+	padding-left:5px;
+}
+
+a.normal{
+	text-decoration: underline;
+	display: inline;
+	width: auto;
+	padding-left:0px;
 }
 
 .nav a:hover{
@@ -62,12 +82,15 @@ body {
 	background-color: #FFCC00;
 }
 
+/*navtop - similar to navigation bar, but at top of screen right below header. Used only for extra links such as different about pages
+that we don't want to include in the main navigation bar.*/
 .navtop{
 	background-color: #000099;
-	opacity: 0.85;
+	opacity: .85;
+	filter: alpha(opacity = calc(100 * .85)); /* For IE8 and earlier */
 	position: fixed;
 	top:80px;
-	left:80px;
+	left:100px;
 	height:30px;
 	width:100%;
 	z-index:10;

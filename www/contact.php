@@ -10,13 +10,10 @@
 <div class="header">
 	<h1 class="head">Palmer Ridge Robotics - Contact Us</h1>
 </div>
-<div class="nav">
-<ul class="nav">
-	<li><a href="index.php"><h3>Home</h3></a></li>
-	<li><a href="contact.php"><h3>Contact</h3></a></li>
-	<li><a href="./about/index.php"><h3>About</h3></a></li>
-</ul>
-</div>
+<?PHP
+$home = './';
+include $home.'sidebar.php';
+?>
 <div class="body">
 	<?PHP
 	require 'contactForm.php';
